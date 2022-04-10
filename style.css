@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+}
+
+/* *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    width: 25rem;
+    height: 40rem;
+    background: rgb(78, 170, 223);
+    background-image: radial-gradient(at 97% 15%, hsla(109, 99%, 79%, 1) 0px, transparent 50%),
+    radial-gradient(at 45% 88%, hsla(223, 67%, 62%, 1) 0px, transparent 50%),
+    radial-gradient(at 76% 78%, hsla(60, 76%, 75%, 1) 0px, transparent 50%),
+    radial-gradient(at 87% 19%, hsla(287, 95%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 52% 9%, hsla(254, 81%, 79%, 1) 0px, transparent 50%),
+    radial-gradient(at 61% 66%, hsla(75, 92%, 65%, 1) 0px, transparent 50%);
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 7px 9px rgb(78 170 223 / 48%);
+}
+
+.screen {
+    width: 18rem;
+    height: 5rem;
+    margin: 2rem;
+    background-color: #D6E5FA;
+    box-shadow: 3px 5px rgb(94, 93, 96);
+    border-radius: 0%;
+}
+
+.button {
+    
+    /* border: solid 2px black; */
+    height: 24rem;
+    width: 18rem;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#buttonCE {
+    font-size: 2.2rem;
+    justify-self: center;
+    text-align: center;
+    background: #E4AEC5;
+}
+div {
+    background: rgba(126, 155, 231, 0.523);
+    font-size: 3rem;
+    border: solid black 2px;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    text-align: center;
+    align-self: center;
+    text-shadow: 2px 2px 5px rgb(94, 93, 96);
+    box-shadow: 3px 5px rgb(94, 93, 96);
+}
+
