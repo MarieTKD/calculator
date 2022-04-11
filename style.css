@@ -58,12 +58,11 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-#buttonCE {
-    font-size: 2.2rem;
-    justify-self: center;
-    text-align: center;
-    background: #E4AEC5;
+div:hover {
+    background-color: #FAD9E6;
 }
+
+
 div {
     background: rgba(126, 155, 231, 0.523);
     font-size: 3rem;
